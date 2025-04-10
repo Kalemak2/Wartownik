@@ -23,9 +23,18 @@
                 Console.WriteLine("\nNie znaleziono liczby w tablicy.");
             else
                 Console.WriteLine($"\nZnaleziono liczbę {szukana} na pozycji {indeks}.");
-
-
         }
+         /*********************************************************
+         * nazwa funkcji:    PrzeszukajZWartownikiem
+         * argumenty:        int[] tablica - tablica liczb całkowitych, w której szukamy elementu
+         *                   int x - liczba, której szukamy w tablicy
+         * typ zwracany:     int - indeks znalezionego elementu w tablicy;
+         *                   jeżeli element nie został znaleziony, funkcja zwraca -1
+         * informacje:       Funkcja realizuje przeszukiwanie tablicy z wartownikiem.
+         *                   Na końcu tablicy umieszcza wartownika,
+         *                   aby uniknąć sprawdzania końca tablicy w pętli while.
+         * autor: Kornel Pakulski
+         *******************************************************/
 
         static int PrzeszukajZWartownikiem(int[] tablica, int x)
         {
